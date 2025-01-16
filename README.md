@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 2. Adjust the hyper parameters in `config.py` as desired. These include:
   - `learning_rate`: Step size for network updates (default: `1e-4`)
-  - `buffer_size`: Maximum number of experiences to store (default: 10,000)
+  - `buffer_size`: Maximum number of experiences to store (default: 25,000)
   - `batch_size`: Number of experiences to sample each update (default: 256)
   - `gamma`: Discount factor for future rewards (default: 0.99)
   - `target_update`: Number of steps between target network updates (default: 1000)
