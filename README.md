@@ -1,11 +1,27 @@
 # Blackjack DQN
 Basic DQN implementation for playing blackjack in a custom gym environment 
 
-## Getting Started
+## Run the Code
+1. Install the dependencies
 ```bash
-# Install dependencies
 pip install -r requirements.txt
 ```
+
+2. Adjust the hyper parameters in `config.py` as desired. These include:
+  - `learning_rate`: `float`
+  - `buffer_size`: `int`
+  - `batch_size`: `int`
+  - `gamma`: `float`
+  - `target_update`: `int`
+  - `epsilon_start`: `float`
+  - `epsilon_final`: `float`
+  - `epsilon_decay`: `float`
+  - `total_timesteps`: `int`
+  - `eval_freq`: `int`
+  - `gradient_clip`: `float`
+  Note: The default values are tuned for optimal performance, but feel free to experiment.
+
+## Theory
 
 ### 1. The Game of Blackjack
 
