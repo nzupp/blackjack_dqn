@@ -55,7 +55,7 @@ Player Total | Hit Rate | Stand Rate | Total Decisions
     20      |   0.0   % |   100.0  % |      1654      
 ```
 
-Believe it or not, these results actually indicate excellent learning of the basic optimal policy of blackjack- but more on that in the theory section.
+Believe it or not, these results actually indicate viable learning of the basic optimal policy of blackjack- but more on that in the theory section.
 
 ## Theory
 
