@@ -25,12 +25,12 @@ pip install -r requirements.txt
 
 3. Train the agent. The final model will be saved for use in analysis in the next step.
 ```bash
-python blackjack_dqn.py
+python driver.py train
 ```
 
 4. Evaluate performance. This will run 10,000 games and output performance statistics. 
 ```bash
-python eval_blackjack.py
+python driver.py evaluate
 ```
 
 Sample output:
