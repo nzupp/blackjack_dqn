@@ -28,6 +28,8 @@ pip install -r requirements.txt
 python driver.py train
 ```
 
+Note: The repo includes an instance of an agent, `blackjack_agent.pth`, that is pretrained. Retraining will overwrite this agent at the path it is saved at. Further, `evaluate()` (discussed in detail below), assumes the saved agent path, but this can be manually changed in `driver.py`.
+
 4. Evaluate performance. This will run 10,000 games and output performance statistics. 
 ```bash
 python driver.py evaluate
