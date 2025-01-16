@@ -16,7 +16,6 @@ Blackjack is inherently a casino game where the rules favor the house:
 - Player win rate: ~42%
 - Remaining games: Draws
 
-#### Design Decisions
 In a practical casino setting, an agent would need to incorporate a betting strategy to overcome the house edge - betting more aggressively on favorable hands to compensate for the inherent disadvantage. However, this project focuses purely on learning optimal play decisions.
 
 Our success metric is achieving the theoretical optimal win rate of ~42% over a statistically significant number of games, demonstrating that our agent has learned the best possible strategy within the game's constraints.
