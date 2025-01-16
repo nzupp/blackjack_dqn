@@ -2,9 +2,10 @@
 Basic DQN implementation for playing blackjack in a custom gym environment 
 
 ## Getting Started
-```bash
+'''bash
 # Install dependencies
 pip install -r requirements.txt
+'''
 
 ### 1. The Game of Blackjack
 
