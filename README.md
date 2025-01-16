@@ -1,5 +1,5 @@
 # Blackjack DQN Agent
-An implementation of Clipped Double Q-learning proposed by Fujimoto et al., 2018, that masters optimal Blackjack strategy through self-play. Built with a custom gym environment.
+An implementation of Clipped Double Q-learning proposed by ([Fujimoto et al., 2018]([https://arxiv.org/pdf/1802.09477](https://arxiv.org/pdf/1802.09477))), that masters optimal Blackjack strategy through self-play. Built with a custom gym environment.
 
 ## Run the Code
 1. Install the dependencies
@@ -81,7 +81,7 @@ In a practical casino setting, an agent would need to incorporate a betting stra
 Therefore, an appropriate success metric is achieving the theoretical optimal win rate of ~42% over a statistically significant number of games, demonstrating that the agent has learned the best possible strategy within the game's constraints.
 
 ### 2. Clipped Double Q-learning
-The agent used to play blackjack is an enhanced version of DQN proposed by Fujimoto et al., 2018 (https://arxiv.org/pdf/1802.09477). This technique:
+The agent used to play blackjack is an enhanced version of DQN proposed by Fujimoto et al., 2018. This technique:
 - Maintains two separate Q-networks
 - Takes the minimum of their predictions to prevent overoptimistic value estimates
 - Clips the difference between the two networks' predictions
