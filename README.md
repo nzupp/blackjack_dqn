@@ -19,6 +19,7 @@ pip install -r requirements.txt
   - `total_timesteps`: int
   - `eval_freq`: int
   - `gradient_clip`: float
+  
   Note: The default values are tuned for optimal performance, but feel free to experiment.
 
 ## Theory
