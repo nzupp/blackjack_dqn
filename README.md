@@ -8,17 +8,18 @@ pip install -r requirements.txt
 ```
 
 2. Adjust the hyper parameters in `config.py` as desired. These include:
-  - `learning_rate`: float
-  - `buffer_size`: int
-  - `batch_size`: int
-  - `gamma`: float
-  - `target_update`: int
-  - `epsilon_start`: float
-  - `epsilon_final`: float
-  - `epsilon_decay`: float
-  - `total_timesteps`: int
-  - `eval_freq`: int
-  - `gradient_clip`: float
+  - `learning_rate`: Step size for network updates (default: `1e-4`)
+  - `buffer_size`: Maximum number of experiences to store (default: 10,000)
+  - `batch_size`: Number of experiences to sample each update (default: 256)
+  - `gamma`: Discount factor for future rewards (default: 0.99)
+  - `target_update`: Number of steps between target network updates (default: 1000)
+  - `epsilon_start`: Initial exploration rate (default: 1.0)
+  - `epsilon_final`: Final exploration rate (default: 0.01)
+  - `epsilon_decay`: Rate at which exploration decreases (default: 0.2)
+  - `total_timesteps`: Total number of training steps (default: 100,000)
+  - `eval_freq`: Number of steps between performance evaluations (default: 10,000)
+  - `gradient_clip`: Max gradient value to avoid exploding gradients (default: 1.0)
+  - `device`: Optional assignment to GPU (default: `cpu`)
   
   Note: The default values are tuned for optimal performance, but feel free to experiment.
 
