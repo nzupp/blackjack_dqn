@@ -1,6 +1,11 @@
 # Blackjack DQN
 Basic DQN implementation for playing blackjack in a custom gym environment 
 
+## Getting Started
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
 ### 1. The Game of Blackjack
 
 Blackjack serves as an excellent game candidate for the DQN agent. It has a discrete state space over a relatively small number of steps per episode. The rules of the game allow for the development of a basic optimal strategy, which is well documented.
