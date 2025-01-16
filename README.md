@@ -1,5 +1,5 @@
 # Blackjack DQN Agent
-An implementation of Clipped Double Q-learning ([Fujimoto et al., 2018](https://arxiv.org/pdf/1802.09477)) that masters optimal Blackjack strategy through self-play. This agent implements the clipped double Q-learning mechanism from the TD3 algorithm, adapted for a discrete action space environment.
+An implementation of Clipped Double Q-learning ([Fujimoto et al., 2018](https://arxiv.org/pdf/1802.09477)) that masters optimal Blackjack strategy through self-play. Built with a custom gym environment.
 
 ## Run the Code
 1. Install the dependencies
