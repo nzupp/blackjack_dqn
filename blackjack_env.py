@@ -147,14 +147,3 @@ class BlackjackEnv(gym.Env):
     # Very basic render function
     def render(self, mode='human'):
         pass
-        # if mode != 'human':
-        #     raise NotImplementedError
-            
-        # player_score, _ = self._get_score(self.player_cards)
-        # dealer_score, _ = self._get_score(self.dealer_cards)
-        
-        # print(f"Player cards: {self.player_cards}, Score: {player_score}")
-        # if self.done:
-        #     print(f"Dealer cards: {self.dealer_cards}, Score: {dealer_score}")
-        # else:
-        #     print(f"Dealer's first card: {self.dealer_cards[0]}")
